@@ -14,7 +14,7 @@ Bindable properties on components are denoted by the `@bindable` decorator on th
 import { bindable } from 'aurelia'; 
 
 export class Loader {
-    @bindable loading = false;
+    @bindable public loading = false;
 }
 ```
 {% endtab %}
